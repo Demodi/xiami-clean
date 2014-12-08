@@ -53,10 +53,16 @@ Update Date: 2014/10/14
 .athena-main-panel, .athena-panel.athena-playlist-panel, .athena-main-button { display: none !important; } 
 
 /* 屏蔽热门直播间 */
-.popup-content { display: none !important; z-index: 1 !important;} 
+.popup-content {display: none !important; z-index: 1 !important;} 
+.user-list-panel .seiya-tab-view .tabs .tab[data-name="talent"]{display: none !important;} 
+.user-list-panel .seiya-tab-view .tabs .tab[data-name="friend"]{width: 100% !important;} 
+.talent-list-wrap{display: none !important;}
+.user-list-panel .items .item:first-of-type{display: none !important;}
+.user-list-panel .items .item:nth-of-type(2){display: block !important;}
+/*#player-main {z-index: 3000 !important;}*/
 
 /* 屏蔽听歌页好友听歌 */
-.seiya-enter.main-nav .list-button { display: none !important; } 
+/*.seiya-enter.main-nav .list-button {display: none !important;} */
 
 /* 屏蔽听歌页我的直播间 */
 .enter-button { display: none !important; } 
