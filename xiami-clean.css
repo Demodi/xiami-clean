@@ -59,10 +59,6 @@ Update Date: 2014/10/14
 .talent-list-wrap{display: none !important;}
 .user-list-panel .items .item:first-of-type{display: none !important;}
 .user-list-panel .items .item:nth-of-type(2){display: block !important;}
-/*#player-main {z-index: 3000 !important;}*/
-
-/* 屏蔽听歌页好友听歌 */
-/*.seiya-enter.main-nav .list-button {display: none !important;} */
 
 /* 屏蔽听歌页我的直播间 */
 .enter-button { display: none !important; } 
